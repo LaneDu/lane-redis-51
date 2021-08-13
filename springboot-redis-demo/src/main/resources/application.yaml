@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: 172.16.94.13
+    port: 6379
+    jedis:
+      pool:
+        max-active: 80
+        max-idle: 8
+        max-wait: 30000
+        min-idle: 0
+    timeout: 3000
+
